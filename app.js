@@ -71,7 +71,7 @@
 
       const right = document.createElement('div');
       right.className = 'right';
-      right.innerHTML = `<div>${escapeHtml(a.effect_type ?? 'n/a')}</div><div style="color:${a.hidden ? '#999' : '#000'}">${a.hidden ? 'hidden' : 'visible'}</div>`;
+      right.innerHTML = `<div>${escapeHtml(a.effect_type ?? 'n/a')}</div><div style="color:${a.hidden ? '#999' : '#999'}">${a.hidden ? 'hidden' : 'visible'}</div>`;
 
       card.appendChild(left);
       card.appendChild(right);

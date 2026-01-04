@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Custom Fortress</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>List of Custom  item attributes</h1>
+      <p class="subtitle">Data loaded from <code>data/custom_attributes.json</code>.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="list-view" class="panel">
+      <div class="controls">
+        <input id="search" type="search" placeholder="Search by name, class, description or id" />
+        <label class="control-inline">effect:
+          <select id="effectFilter"><option value="all">all</option></select>
+        </label>
+        <div id="resultCount" class="result-count"></div>
+      </div>
+
+      <div id="list" class="list"></div>
+      <div id="error" class="error hidden"></div>
+    </section>
+
+    <section id="detail-view" class="panel hidden">
+      <a href="#/" id="backLink" class="back-link">← Back to list</a>
+      <article id="detail"></article>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    Hosted on GitHub Pages • AI was used to help with Search Bar
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

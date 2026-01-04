@@ -1,0 +1,62 @@
+@import url('https://teeenoob.github.io/themes/fonts.css');
+
+:root{
+  --max-w: 980px;
+  --muted: #9ca3af;
+  --accent: #2c508a;
+  --bg: #121212;
+  --card: #1f1f1f;
+  --border: #2c2c2c;
+}
+*{box-sizing:border-box}
+body{
+  font-family: Faustina-Regular;
+  margin:0;
+  background:var(--bg);
+  color:#e5e7eb;
+  -webkit-font-smoothing:antialiased;
+}
+.container{
+  max-width:var(--max-w);
+  margin:28px auto;
+  padding:0 16px;
+}
+.site-header{
+  background:linear-gradient(90deg, #1f1f1f, #242424);
+  border-bottom:1px solid var(--border);
+  padding:18px 16px;
+}
+.site-header h1{margin:0 0 6px 0;font-size:30px}
+.subtitle{margin:0;color:var(--muted);font-size:16px}
+.panel{background:transparent;margin-top:16px}
+.controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+.controls input[type=search]{flex:1;min-width:220px;padding:8px 10px;border:1px solid var(--border);border-radius:.6px;background:#1f1f1f;color:#e5e7eb}
+.control-inline{font-size:13px;color:var(--muted)}
+.result-count{margin-left:auto;color:var(--muted);font-size:13px}
+.list{display:flex;flex-direction:column;gap:10px}
+.card{
+  background:var(--card);
+  border:1px solid var(--border);
+  padding:12px;
+  border-radius:.8px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.card .meta{color:var(--muted);font-size:13px;margin-top:6px}
+.card a{color:var(--accent);text-decoration:none;font-weight:600}
+.card .right{text-align:right;font-size:13px;color:var(--muted)}
+.hidden{display:none}
+.back-link{display:inline-block;margin-bottom:12px;color:var(--accent);text-decoration:none}
+#detail{background:var(--card);padding:14px;border-radius:.8px;border:1px solid var(--border)}
+.detail-row{display:flex;gap:12px;padding:6px 0;border-bottom:1px dashed #2c2c2c}
+.detail-row dt{width:220px;font-weight:700;color:#e5e7eb}
+.detail-row dd{margin:0;color:#d1d5db}
+pre.raw{background:#1b1b1b;padding:12px;border-radius:.6px;border:1px solid #2c2c2c;overflow:auto;color:#e5e7eb}
+.footer{max-width:var(--max-w);margin:20px auto;color:var(--muted);font-size:13px;padding:0 16px}
+.error{color:#f87171;padding:10px;background:#2c1a1a;border:1px solid #f87171;border-radius:.6px}
+@media (max-width:640px){
+  .detail-row dt{width:140px}
+  .controls{flex-direction:column;align-items:stretch}
+  .result-count{margin-left:0}
+}

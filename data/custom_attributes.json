@@ -1,0 +1,410 @@
+{
+   "4032" : {
+      "attribute_class" : "dispenser_build_rate_multiplier",
+      "description_string" : "#Attrib_Dispenser_Build_Rate",
+      "hidden" : "0",
+      "effect_type" : "positive",
+      "stored_as_integer" : "0",
+      "description_format" : "value_is_percentage",
+      "name" : "engineer dispenser build rate multiplier"
+   },
+   "4030" : {
+      "attribute_class" : "keep_disguise_on_attack",
+      "description_string" : "#Attrib_KeepDisguiseOnAttack",
+      "description_format" : "value_is_additive",
+      "name" : "keep disguise on attack",
+      "hidden" : "0",
+      "effect_type" : "positive"
+   },
+   "4023" : {
+      "attribute_class" : "mult_sentry_firerate",
+      "description_string" : "#Attrib_EngySentryFireRateDecreased",
+      "hidden" : "1",
+      "effect_type" : "negative",
+      "name" : "engy sentry fire rate decreased hidden",
+      "description_format" : "value_is_inverted_percentage"
+   },
+   "483" : {
+      "stored_as_integer" : "0",
+      "effect_type" : "negative",
+      "hidden" : "1",
+      "name" : "medigun heals buildings",
+      "description_format" : "value_is_additive",
+      "description_string" : "#Attrib_Heal_EngiBuildings",
+      "attribute_class" : "medic_machinery_beam"
+   },
+   "4027" : {
+      "description_string" : "#Attrib_ModGhostlyDash",
+      "name" : "mod ghostly dash",
+      "description_format" : "value_is_additive",
+      "attribute_class" : "mod_ghostly_dash",
+      "effect_type" : "positive",
+      "hidden" : "0"
+   },
+   "4031" : {
+      "name" : "headshots from behind",
+      "description_format" : "value_is_additive",
+      "hidden" : "0",
+      "stored_as_integer" : "0",
+      "effect_type" : "positive",
+      "attribute_class" : "back_headshot",
+      "description_string" : "#Attrib_Back_Headshot"
+   },
+   "4043" : {
+      "effect_type" : "neutral",
+      "stored_as_integer" : "0",
+      "hidden" : "0",
+      "description_format" : "value_is_additive",
+      "name" : "medigun charge is cloak",
+      "description_string" : "#Attrib_Medigun_Cloak",
+      "attribute_class" : "set_charge_type"
+   },
+   "4018" : {
+      "description_string" : "#TFCW_Weapon_Afterburner_NoBlast",
+      "attribute_class" : "afterburner_negative_text",
+      "stored_as_integer" : "1",
+      "effect_type" : "negative",
+      "hidden" : "0",
+      "name" : "afterburner negative text",
+      "description_format" : "value_is_additive"
+   },
+   "4014" : {
+      "hidden" : "1",
+      "effect_type" : "positive",
+      "stored_as_integer" : "1",
+      "name" : "visuals sound override",
+      "description_format" : "value_is_additive",
+      "attribute_class" : "visuals_sound_override"
+   },
+   "4016" : {
+      "stored_as_integer" : "1",
+      "effect_type" : "negative",
+      "hidden" : "0",
+      "description_format" : "value_is_additive",
+      "name" : "item can speak",
+      "description_string" : "#Attrib_ItemCanTalk_Description",
+      "attribute_class" : "item_can_speak"
+   },
+   "4035" : {
+      "description_format" : "value_is_percentage",
+      "name" : "blast dmg to self decreased",
+      "description_string" : "#Attrib_BlastDamageToSelf_Decreased",
+      "attribute_class" : "blast_dmg_to_self",
+      "effect_type" : "positive",
+      "stored_as_integer" : "0",
+      "hidden" : "0"
+   },
+   "4009" : {
+      "attribute_class" : "is_restored_cut_item",
+      "description_string" : "#Attrib_ScrappedItem_Description",
+      "name" : "is restored cut item",
+      "description_format" : "value_is_percentage",
+      "hidden" : "0",
+      "effect_type" : "scrapped",
+      "stored_as_integer" : "0"
+   },
+   "4017" : {
+      "attribute_class" : "airblast_dashes",
+      "description_string" : "#TFCW_Weapon_Afterburner_Dash",
+      "name" : "airblast dashes",
+      "description_format" : "value_is_additive",
+      "hidden" : "0",
+      "effect_type" : "neutral",
+      "stored_as_integer" : "1"
+   },
+   "480" : {
+      "description_string" : "#Attrib_Radius_Stealth",
+      "name" : "radius stealth",
+      "description_format" : "value_is_additive",
+      "attribute_class" : "radius_stealth",
+      "effect_type" : "positive",
+      "hidden" : "0"
+   },
+   "4000" : {
+      "description_format" : "value_is_additive",
+      "name" : "override voice sound set",
+      "attribute_class" : "override_voice_sound_set",
+      "effect_type" : "positive",
+      "stored_as_integer" : "0",
+      "hidden" : "1"
+   },
+   "4013" : {
+      "hidden" : "0",
+      "effect_type" : "positive",
+      "stored_as_integer" : "1",
+      "attribute_class" : "airblast_pushes_teammates",
+      "description_string" : "#Attrib_AirblastYourTeam",
+      "name" : "airblast pushes teammates",
+      "description_format" : "value_is_additive"
+   },
+   "4002" : {
+      "attribute_class" : "drops_reviver_machine",
+      "name" : "drops reviver machine",
+      "description_format" : "value_is_additive",
+      "hidden" : "1",
+      "effect_type" : "negative",
+      "stored_as_integer" : "0"
+   },
+   "4024" : {
+      "attribute_class" : "mult_sentry_turn_rate",
+      "name" : "engy sentry turn rate increased hidden",
+      "description_format" : "value_is_percentage",
+      "description_string" : "#Attrib_EngySentryTurnRateIncreased",
+      "hidden" : "1",
+      "effect_type" : "negative"
+   },
+   "4039" : {
+      "stored_as_integer" : "0",
+      "effect_type" : "positive",
+      "hidden" : "0",
+      "description_format" : "value_is_additive",
+      "name" : "speed buff ally projectile",
+      "description_string" : "#Attrib_SpeedBuffAllyProjectile",
+      "attribute_class" : "speed_buff_ally"
+   },
+   "4005" : {
+      "description_format" : "value_is_additive",
+      "name" : "override hand model index",
+      "attribute_class" : "override_hand_model_index",
+      "stored_as_integer" : "0",
+      "effect_type" : "positive",
+      "hidden" : "1"
+   },
+   "4028" : {
+      "effect_type" : "positive",
+      "hidden" : "0",
+      "name" : "mod proximity stickies",
+      "description_format" : "value_is_additive",
+      "description_string" : "#Attrib_ModProximityStickies",
+      "attribute_class" : "mod_proximity_stickies"
+   },
+   "4026" : {
+      "effect_type" : "positive",
+      "hidden" : "0",
+      "description_string" : "#Attrib_EngyTankSentry",
+      "name" : "engy tank sentry",
+      "description_format" : "value_is_additive"
+   },
+   "4001" : {
+      "hidden" : "1",
+      "effect_type" : "negative",
+      "stored_as_integer" : "0",
+      "attribute_class" : "sniper_has_laserdot",
+      "description_format" : "value_is_additive",
+      "name" : "sniperrifle has laser pointer",
+      "description_string" : "#Attrib_SniperLaser"
+   },
+   "4007" : {
+      "description_format" : "value_is_additive",
+      "name" : "engy sentry rockets firerate bonus",
+      "attribute_class" : "mult_engy_sentry_rockets_firerate",
+      "stored_as_integer" : "0",
+      "effect_type" : "neutral",
+      "hidden" : "1"
+   },
+   "4010" : {
+      "stored_as_integer" : "0",
+      "effect_type" : "negative",
+      "hidden" : "0",
+      "description_format" : "value_is_additive",
+      "name" : "is blacklisted in mvm",
+      "description_string" : "#Attrib_Blacklisted_MVM_Description",
+      "attribute_class" : "is_blacklisted_in_mvm"
+   },
+   "4012" : {
+      "description_string" : "#Attrib_AttachedParticle",
+      "description_format" : "value_is_particle_index",
+      "name" : "bf taunt attach particle index",
+      "can_affect_market_name" : "1",
+      "stored_as_integer" : "1",
+      "effect_type" : "unusual",
+      "hidden" : "1"
+   },
+   "4003" : {
+      "attribute_class" : "pda_builds_minidispenser",
+      "description_string" : "#Attrib_WrenchBuildsMiniDispenser",
+      "description_format" : "value_is_additive",
+      "name" : "mod pda builds minidispenser",
+      "hidden" : "0",
+      "effect_type" : "negative",
+      "stored_as_integer" : "0"
+   },
+   "523" : {
+      "attribute_class" : "arrow_mastery",
+      "description_string" : "#Attrib_Arrow_Mastery",
+      "description_format" : "value_is_additive",
+      "name" : "arrow mastery",
+      "hidden" : "1",
+      "effect_type" : "negative",
+      "stored_as_integer" : "0"
+   },
+   "4015" : {
+      "effect_type" : "positive",
+      "stored_as_integer" : "1",
+      "hidden" : "1",
+      "name" : "projectile has gravity",
+      "description_format" : "value_is_additive",
+      "attribute_class" : "projectile_has_gravity"
+   },
+   "4036" : {
+      "name" : "add give health to teammate on hit",
+      "description_format" : "value_is_additive",
+      "stored_as_integer" : "0",
+      "effect_type" : "positive",
+      "hidden" : "0",
+      "description_string" : "#Attrib_GiveHealthToTeammate",
+      "attribute_class" : "add_give_health_to_teammate_on_hit"
+   },
+   "4038" : {
+      "hidden" : "0",
+      "stored_as_integer" : "1",
+      "effect_type" : "neutral",
+      "attribute_class" : "pda_builds_pads",
+      "description_string" : "#Attrib_TeleporterPads",
+      "name" : "mod pda builds pads",
+      "description_format" : "value_is_additive"
+   },
+   "4029" : {
+      "hidden" : "0",
+      "effect_type" : "negative",
+      "attribute_class" : "mod_fizzle_stickies",
+      "description_string" : "#Attrib_ModFizzleStickies",
+      "name" : "mod fizzle stickies",
+      "description_format" : "value_is_additive"
+   },
+   "4034" : {
+      "hidden" : "0",
+      "effect_type" : "positive",
+      "stored_as_integer" : "0",
+      "attribute_class" : "mod_minigun_can_holster_while_spinning",
+      "description_string" : "#Attrib_MinigunHolsterSpunUp",
+      "name" : "minigun can holster while spinning",
+      "description_format" : "value_is_additive"
+   },
+   "4011" : {
+      "hidden" : "1",
+      "stored_as_integer" : "1",
+      "effect_type" : "positive",
+      "attribute_class" : "has_infinite_ammo",
+      "name" : "has infinite ammo",
+      "description_format" : "value_is_additive"
+   },
+   "4033" : {
+      "attribute_class" : "kill_combo_fire_rate_boost",
+      "description_string" : "#Attrib_KillComboFireRateBoost",
+      "name" : "kill combo fire rate boost",
+      "description_format" : "value_is_additive_percentage",
+      "hidden" : "0",
+      "effect_type" : "positive",
+      "stored_as_integer" : "0"
+   },
+   "4041" : {
+      "attribute_class" : "add_uber_time",
+      "description_string" : "#Attrib_UberDurationPenalty",
+      "description_format" : "value_is_percentage",
+      "name" : "uber duration penalty",
+      "hidden" : "0",
+      "effect_type" : "negative",
+      "stored_as_integer" : "0"
+   },
+   "4020" : {
+      "description_format" : "value_is_additive",
+      "name" : "heat seek flare",
+      "description_string" : "#TFCW_Spitfire_SeekProj",
+      "attribute_class" : "mod_projectile_heat_seek_power",
+      "effect_type" : "positive",
+      "stored_as_integer" : "1",
+      "hidden" : "0"
+   },
+   "4022" : {
+      "effect_type" : "positive",
+      "hidden" : "0",
+      "description_string" : "#Attrib_ApplyKnockbackOnHit",
+      "description_format" : "value_is_additive",
+      "name" : "apply knockback on hit"
+   },
+   "4037" : {
+      "attribute_class" : "vscript_weapon_flags",
+      "hidden" : "1",
+      "effect_type" : "neutral",
+      "stored_as_integer" : "1",
+      "description_format" : "value_is_additive",
+      "name" : "scripted weapon flags"
+   },
+   "4040" : {
+      "stored_as_integer" : "0",
+      "effect_type" : "positive",
+      "hidden" : "0",
+      "description_format" : "value_is_additive",
+      "name" : "melee cleanse ally",
+      "description_string" : "#Attrib_MeleeCleanseAlly",
+      "attribute_class" : "melee_cleanse_ally"
+   },
+   "342" : {
+      "hidden" : "0",
+      "effect_type" : "positive",
+      "attribute_class" : "see_cash_through_walls",
+      "name" : "see cash through walls",
+      "description_format" : "value_is_additive",
+      "description_string" : "#Attrib_CashXray"
+   },
+   "4021" : {
+      "attribute_class" : "show_hits_in_killfeed",
+      "description_string" : "#Attrib_ShowHitsInKillfeed",
+      "name" : "show hits in killfeed",
+      "description_format" : "value_is_additive",
+      "hidden" : "0",
+      "effect_type" : "positive"
+   },
+   "264" : {
+      "attribute_class" : "melee_range_multiplier",
+      "description_string" : "#Attrib_MeleeRangeMultiplier",
+      "description_format" : "value_is_percentage",
+      "name" : "melee range multiplier",
+      "hidden" : "0",
+      "stored_as_integer" : "0",
+      "effect_type" : "positive"
+   },
+   "4004" : {
+      "hidden" : "1",
+      "stored_as_integer" : "0",
+      "effect_type" : "positive",
+      "attribute_class" : "custom_sticky_trail",
+      "name" : "custom sticky trail",
+      "description_format" : "value_is_additive"
+   },
+   "4025" : {
+      "hidden" : "1",
+      "effect_type" : "positive",
+      "attribute_class" : "mult_engy_sentry_damage",
+      "name" : "engy sentry damage bonus hidden"
+   },
+   "4008" : {
+      "attribute_class" : "is_community_contributed_item",
+      "attribute_type" : "string",
+      "description_string" : "#Attrib_CommunityItem_SteamID",
+      "hidden" : "0",
+      "effect_type" : "community",
+      "stored_as_integer" : "0",
+      "description_format" : "value_is_steamid3",
+      "name" : "is community contributed item",
+      "is_user_generated" : "3"
+   },
+   "4019" : {
+      "attribute_class" : "airblast_pushback_scale",
+      "description_string" : "#Attrib_AirBlastPushDownScale",
+      "name" : "airblast pushback downscale",
+      "description_format" : "value_is_percentage",
+      "hidden" : "0",
+      "effect_type" : "negative",
+      "stored_as_integer" : "0"
+   },
+   "4006" : {
+      "name" : "robotrobotrobotrobot",
+      "description_format" : "value_is_additive",
+      "attribute_class" : "robotrobotrobotrobot",
+      "effect_type" : "neutral",
+      "stored_as_integer" : "0",
+      "hidden" : "1"
+   }
+}

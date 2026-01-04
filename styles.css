@@ -2,17 +2,18 @@
 
 :root{
   --max-w: 980px;
-  --muted: #9ca3af;
-  --accent: #4976bd;
-  --bg: #121212;
+  --muted: #b9c3c9;
+  --accent: #5280ca;
+  --bg: #1a1a1a;
   --card: #1f1f1f;
-  --border: #2c2c2c;
+  --border: #292929;
 }
 *{box-sizing:border-box}
 body{
-  font-family: Faustina-Regular;
+  font-family: Aller_Rg;
+  text-shadow: .4px .8px 1px #000;
   margin:0;
-  background:var(--bg);
+  background: var(--bg);
   color:#e5e7eb;
   -webkit-font-smoothing:antialiased;
 }
@@ -22,9 +23,9 @@ body{
   padding:0 16px;
 }
 .site-header{
-  background:linear-gradient(90deg, #1f1f1f, #242424);
+  background:#1f1f1f;
   border-bottom:1px solid var(--border);
-  padding:18px 16px;
+  padding:14px 16px;
 }
 .site-header h1{margin:0 0 6px 0;font-size:30px}
 .subtitle{margin:0;color:var(--muted);font-size:16px}
@@ -37,20 +38,20 @@ body{
 .card{
   background:var(--card);
   border:1px solid var(--border);
-  padding:12px;
+  padding:8px;
   border-radius:.8px;
   display:flex;
   justify-content:space-between;
   align-items:center;
 }
-.card .meta{color:var(--muted);font-size:13px;margin-top:6px}
-.card a{color:var(--accent);text-decoration:none;font-weight:400}
-.card .right{text-align:right;font-size:13px;color:var(--muted)}
+.card .meta{color:var(--muted);font-size:15px;margin-top:6px}
+.card a{color:var(--accent);text-decoration:none;font-size:18px}
+.card .right{text-align:right;font-size:16px;color:var(--muted)}
 .hidden{display:none}
 .back-link{display:inline-block;margin-bottom:12px;color:var(--accent);text-decoration:none}
 #detail{background:var(--card);padding:14px;border-radius:.8px;border:1px solid var(--border)}
 .detail-row{display:flex;gap:12px;padding:6px 0;border-bottom:1px dashed #2c2c2c}
-.detail-row dt{width:220px;font-weight:500;color:#e5e7eb}
+.detail-row dt{width:220px;color:#e5e7eb}
 .detail-row dd{margin:0;color:#d1d5db}
 pre.raw{background:#1b1b1b;padding:12px;border-radius:.6px;border:1px solid #2c2c2c;overflow:auto;color:#e5e7eb}
 .footer{max-width:var(--max-w);margin:20px auto;color:var(--muted);font-size:13px;padding:0 16px}
